@@ -1,33 +1,53 @@
-*{
-  border:red dotted 5px
+
+
+html{
+  min-height: 100%;
 }
 
 body{ 
-  background-color: rgba(0, 255, 255, 0.253);
+  background: linear-gradient(90deg, #09315b, #01426d, #00557f, #00688f, #007b9e, #008fab, #00a3b6, #11b7c0);
+  min-height: 100%;
+  font-family: "Georgia";
 }
 
 .Headshot{
   justify-content: center;
   text-align: center;
-  background-color: aqua;
   padding: 20px 0 20px 0;
 }
 
 .Name{
   justify-content: center;
   text-align: center;
-  background-color: aqua;
   padding: 5px 0 20px 0;
   font-size: 50px;
 }
 
 .Links{
-  width: 600px;
-  margin:auto;
+  max-width: 640px;
+  margin:auto;  
+  }
+
+.Link{
+  margin:10px auto 10px auto;
+  border-radius: 1000px;
+  color: whitesmoke;
   font-size: 20px;
+  background: linear-gradient(90deg, #33d3e1, #62d9e4, #83e0e7, #9ee6eb, #b7ecef, #cff2f3, #e6f7f8, #fcfdfd);
+  display:flex;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
 }
 
-.socialicons{
-  width:100px;
-  margin:auto;
+.Links img{
+  border-radius: 128px;
+  object-fit: cover;
 }
+
+.imagecontainer{
+  width:200px;
+  display:flex;
+  justify-content:space-around;
+  margin:5px auto 5px auto;
+  }
