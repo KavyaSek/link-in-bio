@@ -1,0 +1,33 @@
+*{
+  border:red dotted 5px
+}
+
+body{ 
+  background-color: rgba(0, 255, 255, 0.253);
+}
+
+.Headshot{
+  justify-content: center;
+  text-align: center;
+  background-color: aqua;
+  padding: 20px 0 20px 0;
+}
+
+.Name{
+  justify-content: center;
+  text-align: center;
+  background-color: aqua;
+  padding: 5px 0 20px 0;
+  font-size: 50px;
+}
+
+.Links{
+  width: 600px;
+  margin:auto;
+  font-size: 20px;
+}
+
+.socialicons{
+  width:100px;
+  margin:auto;
+}
